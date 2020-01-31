@@ -1,0 +1,12 @@
+[package]
+name = "byo-executor"
+version = "0.1.0"
+authors = ["Stjepan Glavina <stjepang@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+async-task = "1.3.0"
+crossbeam = "0.7.3"
+futures = "0.3.1"
+num_cpus = "1.12.0"
+once_cell = "1.3.1"
